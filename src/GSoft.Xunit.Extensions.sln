@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSoft.Xunit.Extensions", "GSoft.Xunit.Extensions\GSoft.Xunit.Extensions.csproj", "{C71B3436-583A-4F7F-8045-91D3926C993B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{044A4D97-4907-47A6-AB82-565F838FF3A7}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		.editorconfig = .editorconfig
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C71B3436-583A-4F7F-8045-91D3926C993B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71B3436-583A-4F7F-8045-91D3926C993B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71B3436-583A-4F7F-8045-91D3926C993B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71B3436-583A-4F7F-8045-91D3926C993B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <Copyright>Copyright © Groupe GSoft inc. $([System.DateTime]::UtcNow.ToString(yyyy))</Copyright>
+    <Authors>Anthony Simmon</Authors>
+    <Owners>Groupe GSoft inc.</Owners>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <LangVersion>10</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Description>An opinionated library that provides base unit test and fixture classes based on the Microsoft.Extensions.* packages used by modern .NET applications.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
