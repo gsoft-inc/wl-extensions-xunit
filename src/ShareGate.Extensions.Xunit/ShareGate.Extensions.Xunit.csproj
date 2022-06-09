@@ -4,9 +4,10 @@
     <IsPackable>True</IsPackable>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <AssemblyTitle>GSoft.Xunit.Extensions</AssemblyTitle>
-    <PackageId>GSoft.Xunit.Extensions</PackageId>
+    <AssemblyTitle>ShareGate.Extensions.Xunit</AssemblyTitle>
+    <PackageId>ShareGate.Extensions.Xunit</PackageId>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,5 +24,9 @@
   <ItemGroup>
     <Using Include="Xunit" />
     <Using Include="Xunit.Abstractions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Link="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>

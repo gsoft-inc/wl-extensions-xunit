@@ -1,9 +1,9 @@
-# GSoft.Xunit.Extensions
+# ShareGate.Extensions.Xunit
 
 An opinionated library that provides base unit test and fixture classes based on the `Microsoft.Extensions.*` packages used by modern .NET applications.
 
-[![nuget](https://img.shields.io/nuget/v/GSoft.Xunit.Extensions.svg?logo=nuget)](https://www.nuget.org/packages/GSoft.Xunit.Extensions/)
-[![build](https://img.shields.io/github/workflow/status/gsoft-inc/gsoft-xunit-extensions/CI%20build?logo=github)](https://github.com/gsoft-inc/gsoft-xunit-extensions/actions/workflows/ci.yml)
+[![nuget](https://img.shields.io/nuget/v/ShareGate.Extensions.Xunit.svg?logo=nuget)](https://www.nuget.org/packages/ShareGate.Extensions.Xunit/)
+[![build](https://img.shields.io/github/workflow/status/gsoft-inc/sg-xunit-extensions/CI%20build?logo=github)](https://github.com/gsoft-inc/sg-xunit-extensions/actions/workflows/ci.yml)
 
 
 ## Getting started

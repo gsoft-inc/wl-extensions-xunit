@@ -1,4 +1,4 @@
-﻿namespace GSoft.Xunit.Extensions;
+﻿namespace ShareGate.Extensions.Xunit;
 
 public abstract class BaseIntegrationTest : BaseIntegrationTest<EmptyIntegrationFixture>
 {
