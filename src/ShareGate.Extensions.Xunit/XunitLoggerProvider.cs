@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 
-namespace GSoft.Xunit.Extensions;
+namespace ShareGate.Extensions.Xunit;
 
 internal sealed class XunitLoggerProvider : ILoggerProvider, ILogger
 {
