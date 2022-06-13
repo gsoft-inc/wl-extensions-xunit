@@ -8,6 +8,8 @@
     <PackageId>ShareGate.Extensions.Xunit</PackageId>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../ShareGate.Extensions.Xunit.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
