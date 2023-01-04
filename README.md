@@ -82,6 +82,9 @@ public class MyUnitFixture : BaseUnitFixture
 }
 ```
 
+## Contribute
+
+Please see [CONTRIBUTING](https://github.com/gsoft-inc/gsoft-extensions-xunit/blob/main/CONTRIBUTING.md)
 
 ## License
 
