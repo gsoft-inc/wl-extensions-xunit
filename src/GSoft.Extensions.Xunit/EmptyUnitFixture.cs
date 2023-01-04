@@ -1,4 +1,4 @@
-namespace ShareGate.Extensions.Xunit;
+namespace GSoft.Extensions.Xunit;
 
 public sealed class EmptyUnitFixture : BaseUnitFixture
 {

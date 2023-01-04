@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 
-namespace ShareGate.Extensions.Xunit;
+namespace GSoft.Extensions.Xunit;
 
 public abstract class BaseIntegrationFixture : BaseUnitFixture
 {

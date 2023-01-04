@@ -4,12 +4,12 @@
     <IsPackable>True</IsPackable>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <AssemblyTitle>ShareGate.Extensions.Xunit</AssemblyTitle>
-    <PackageId>ShareGate.Extensions.Xunit</PackageId>
+    <AssemblyTitle>GSoft.Extensions.Xunit</AssemblyTitle>
+    <PackageId>GSoft.Extensions.Xunit</PackageId>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>../ShareGate.Extensions.Xunit.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>../GSoft.Extensions.Xunit.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

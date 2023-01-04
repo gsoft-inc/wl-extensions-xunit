@@ -21,7 +21,7 @@ return new CakeHost()
 public static class Constants
 {
     public const string Release = "Release";
-    public const string ProjectName = "ShareGate.Extensions.Xunit";
+    public const string ProjectName = "GSoft.Extensions.Xunit";
 
     public static readonly string SourceDirectoryPath = Path.Combine("..", "src");
     public static readonly string OutputDirectoryPath = Path.Combine("..", ".output");
