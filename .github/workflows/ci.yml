@@ -1,15 +1,11 @@
-name: CI build
+name: CI
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
-    branches:
-      - main
+    branches: ["main", "master"]
 
 jobs:
-  build:
+  main:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,16 +13,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-dotnet@v2
+      - uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: |
-            3.1.x
-            6.0.x
+          dotnet-version: "6.0.x"
 
-      - run: ./build.ps1
+      - run: ./Build.ps1
         shell: pwsh
-
-      - uses: actions/upload-artifact@v3
-        with:
-          name: packages
-          path: ./.output/**/*
