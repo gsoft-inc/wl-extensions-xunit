@@ -1,9 +1,10 @@
 <Project>
   <PropertyGroup>
     <Copyright>Copyright © Groupe GSoft inc. $([System.DateTime]::UtcNow.ToString(yyyy))</Copyright>
-    <Authors>Anthony Simmon</Authors>
+    <Authors>Groupe GSoft inc.</Authors>
     <Owners>Groupe GSoft inc.</Owners>
     <PackageProjectUrl>https://github.com/gsoft-inc/gsoft-extensions-xunit</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <LangVersion>10</LangVersion>
     <Nullable>enable</Nullable>
@@ -24,5 +25,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup Condition="$(MSBuildProjectName.Contains('Tests'))">
+    <Using Include="Xunit" />
+    <Using Include="Xunit.Abstractions" />
   </ItemGroup>
 </Project>
