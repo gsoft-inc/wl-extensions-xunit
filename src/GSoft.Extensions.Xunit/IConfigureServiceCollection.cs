@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace ShareGate.Extensions.Xunit;
+namespace GSoft.Extensions.Xunit;
 
 public interface IConfigureServiceCollection
 {

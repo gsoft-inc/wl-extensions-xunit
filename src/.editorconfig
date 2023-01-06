@@ -528,3 +528,27 @@ dotnet_diagnostic.SA1642.severity = none
 dotnet_diagnostic.SA1643.severity = none
 dotnet_diagnostic.SA1644.severity = none
 dotnet_diagnostic.SA1652.severity = none
+
+## Test configs
+[**Tests*/**.cs]
+dotnet_diagnostic.CA1002.severity = none
+dotnet_diagnostic.CA1005.severity = warning
+dotnet_diagnostic.CA1021.severity = warning
+dotnet_diagnostic.CA1027.severity = warning
+dotnet_diagnostic.CA1040.severity = warning
+dotnet_diagnostic.CA1055.severity = warning
+dotnet_diagnostic.CA1061.severity = warning
+dotnet_diagnostic.CA1065.severity = warning
+dotnet_diagnostic.CA1304.severity = warning
+dotnet_diagnostic.CA1710.severity = warning
+dotnet_diagnostic.CA1711.severity = warning
+dotnet_diagnostic.CA1720.severity = warning
+dotnet_diagnostic.CA1721.severity = warning
+dotnet_diagnostic.CA1810.severity = none
+dotnet_diagnostic.CA1819.severity = warning
+dotnet_diagnostic.CA1822.severity = none
+dotnet_diagnostic.CA1824.severity = warning
+dotnet_diagnostic.CA2007.severity = none
+dotnet_diagnostic.CA2229.severity = warning
+dotnet_diagnostic.CA2235.severity = warning
+dotnet_diagnostic.xUnit1004.severity = none

@@ -1,9 +1,9 @@
-# ShareGate.Extensions.Xunit
+# GSoft.Extensions.Xunit
 
 An opinionated library that provides base unit test and fixture classes based on the `Microsoft.Extensions.*` packages used by modern .NET applications.
 
-[![nuget](https://img.shields.io/nuget/v/ShareGate.Extensions.Xunit.svg?logo=nuget)](https://www.nuget.org/packages/ShareGate.Extensions.Xunit/)
-[![build](https://img.shields.io/github/workflow/status/gsoft-inc/sg-extensions-xunit/CI%20build?logo=github)](https://github.com/gsoft-inc/sg-extensions-xunit/actions/workflows/ci.yml)
+[![nuget](https://img.shields.io/nuget/v/GSoft.Extensions.Xunit.svg?logo=nuget)](https://www.nuget.org/packages/GSoft.Extensions.Xunit/)
+[![build](https://img.shields.io/github/actions/workflow/status/gsoft-inc/gsoft-extensions-xunit/publish.yml?logo=github)](https://github.com/gsoft-inc/gsoft-extensions-xunit/actions/workflows/publish.yml)
 
 
 ## Getting started
@@ -82,6 +82,9 @@ public class MyUnitFixture : BaseUnitFixture
 }
 ```
 
+## Contribute
+
+Please see [CONTRIBUTING](https://github.com/gsoft-inc/gsoft-extensions-xunit/blob/main/CONTRIBUTING.md)
 
 ## License
 
