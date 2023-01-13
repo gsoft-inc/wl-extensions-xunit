@@ -19,6 +19,8 @@ public abstract class BaseIntegrationFixture : BaseUnitFixture
 
     protected override IConfigurationBuilder ConfigureConfiguration(IConfigurationBuilder builder)
     {
+        base.ConfigureConfiguration(builder);
+
         builder.SetBasePath(AppContext.BaseDirectory);
         builder.AddJsonFile("appsettings.json", optional: true, reloadOnChange: false);
         builder.AddJsonFile("appsettings." + this.Environment.EnvironmentName + ".json", optional: true, reloadOnChange: false);

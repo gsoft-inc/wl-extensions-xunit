@@ -6,8 +6,8 @@ namespace GSoft.Extensions.Xunit;
 
 public abstract class BaseUnitTest : BaseUnitTest<EmptyUnitFixture>
 {
-    protected BaseUnitTest(ITestOutputHelper testOutputHelper)
-        : base(new EmptyUnitFixture(), testOutputHelper)
+    protected BaseUnitTest(EmptyUnitFixture fixture, ITestOutputHelper testOutputHelper)
+        : base(fixture, testOutputHelper)
     {
     }
 }

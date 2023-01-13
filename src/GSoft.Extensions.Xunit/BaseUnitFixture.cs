@@ -60,6 +60,13 @@ public class BaseUnitFixture : IConfigureServiceCollection, IHasXUnitOutput, IDi
         if (disposing)
         {
             this._loggerProvider.Dispose();
+
+            if (this._lazyConfiguration.IsValueCreated)
+            {
+                // ConfigurationRoot can contain disposable configuration providers:
+                // https://github.com/dotnet/runtime/blob/v6.0.0/src/libraries/Microsoft.Extensions.Configuration/src/ConfigurationRoot.cs#L99
+                (this._lazyConfiguration.Value as IDisposable)?.Dispose();
+            }
         }
     }
 
