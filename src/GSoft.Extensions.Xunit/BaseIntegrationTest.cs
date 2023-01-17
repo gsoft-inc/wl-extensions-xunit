@@ -2,8 +2,8 @@
 
 public abstract class BaseIntegrationTest : BaseIntegrationTest<EmptyIntegrationFixture>
 {
-    protected BaseIntegrationTest(ITestOutputHelper testOutputHelper)
-        : base(new EmptyIntegrationFixture(), testOutputHelper)
+    protected BaseIntegrationTest(EmptyIntegrationFixture fixture, ITestOutputHelper testOutputHelper)
+        : base(fixture, testOutputHelper)
     {
     }
 }

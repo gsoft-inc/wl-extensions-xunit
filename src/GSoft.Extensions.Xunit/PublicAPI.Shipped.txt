@@ -3,7 +3,7 @@ GSoft.Extensions.DependencyInjection.DecorationServiceCollectionExtensions
 GSoft.Extensions.Xunit.BaseIntegrationFixture
 GSoft.Extensions.Xunit.BaseIntegrationFixture.BaseIntegrationFixture() -> void
 GSoft.Extensions.Xunit.BaseIntegrationTest
-GSoft.Extensions.Xunit.BaseIntegrationTest.BaseIntegrationTest(Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
+GSoft.Extensions.Xunit.BaseIntegrationTest.BaseIntegrationTest(GSoft.Extensions.Xunit.EmptyIntegrationFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
 GSoft.Extensions.Xunit.BaseIntegrationTest<TFixture>
 GSoft.Extensions.Xunit.BaseIntegrationTest<TFixture>.BaseIntegrationTest(TFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
 GSoft.Extensions.Xunit.BaseUnitFixture
@@ -12,7 +12,7 @@ GSoft.Extensions.Xunit.BaseUnitFixture.Configuration.get -> Microsoft.Extensions
 GSoft.Extensions.Xunit.BaseUnitFixture.Dispose() -> void
 GSoft.Extensions.Xunit.BaseUnitFixture.SetXunitOutput(Xunit.Abstractions.ITestOutputHelper! outputHelper) -> void
 GSoft.Extensions.Xunit.BaseUnitTest
-GSoft.Extensions.Xunit.BaseUnitTest.BaseUnitTest(Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
+GSoft.Extensions.Xunit.BaseUnitTest.BaseUnitTest(GSoft.Extensions.Xunit.EmptyUnitFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
 GSoft.Extensions.Xunit.BaseUnitTest<TFixture>
 GSoft.Extensions.Xunit.BaseUnitTest<TFixture>.BaseUnitTest(TFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
 GSoft.Extensions.Xunit.BaseUnitTest<TFixture>.Dispose() -> void
