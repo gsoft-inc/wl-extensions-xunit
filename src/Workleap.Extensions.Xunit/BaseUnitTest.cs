@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace GSoft.Extensions.Xunit;
+namespace Workleap.Extensions.Xunit;
 
 public abstract class BaseUnitTest : BaseUnitTest<EmptyUnitFixture>
 {

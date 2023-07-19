@@ -4,11 +4,11 @@
     <IsPackable>True</IsPackable>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <AssemblyTitle>GSoft.Extensions.Xunit</AssemblyTitle>
-    <PackageId>GSoft.Extensions.Xunit</PackageId>
+    <AssemblyTitle>Workleap.Extensions.Xunit</AssemblyTitle>
+    <PackageId>Workleap.Extensions.Xunit</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>../GSoft.Extensions.Xunit.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>../Workleap.Extensions.Xunit.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

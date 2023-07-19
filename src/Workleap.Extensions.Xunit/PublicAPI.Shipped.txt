@@ -1,0 +1,41 @@
+#nullable enable
+Workleap.Extensions.DependencyInjection.DecorationServiceCollectionExtensions
+Workleap.Extensions.Xunit.BaseIntegrationFixture
+Workleap.Extensions.Xunit.BaseIntegrationFixture.BaseIntegrationFixture() -> void
+Workleap.Extensions.Xunit.BaseIntegrationTest
+Workleap.Extensions.Xunit.BaseIntegrationTest.BaseIntegrationTest(Workleap.Extensions.Xunit.EmptyIntegrationFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
+Workleap.Extensions.Xunit.BaseIntegrationTest<TFixture>
+Workleap.Extensions.Xunit.BaseIntegrationTest<TFixture>.BaseIntegrationTest(TFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
+Workleap.Extensions.Xunit.BaseUnitFixture
+Workleap.Extensions.Xunit.BaseUnitFixture.BaseUnitFixture() -> void
+Workleap.Extensions.Xunit.BaseUnitFixture.Configuration.get -> Microsoft.Extensions.Configuration.IConfiguration!
+Workleap.Extensions.Xunit.BaseUnitFixture.Dispose() -> void
+Workleap.Extensions.Xunit.BaseUnitFixture.SetXunitOutput(Xunit.Abstractions.ITestOutputHelper! outputHelper) -> void
+Workleap.Extensions.Xunit.BaseUnitTest
+Workleap.Extensions.Xunit.BaseUnitTest.BaseUnitTest(Workleap.Extensions.Xunit.EmptyUnitFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
+Workleap.Extensions.Xunit.BaseUnitTest<TFixture>
+Workleap.Extensions.Xunit.BaseUnitTest<TFixture>.BaseUnitTest(TFixture! fixture, Xunit.Abstractions.ITestOutputHelper! testOutputHelper) -> void
+Workleap.Extensions.Xunit.BaseUnitTest<TFixture>.Dispose() -> void
+Workleap.Extensions.Xunit.BaseUnitTest<TFixture>.Fixture.get -> TFixture!
+Workleap.Extensions.Xunit.BaseUnitTest<TFixture>.Logger.get -> Microsoft.Extensions.Logging.ILogger!
+Workleap.Extensions.Xunit.EmptyIntegrationFixture
+Workleap.Extensions.Xunit.EmptyIntegrationFixture.EmptyIntegrationFixture() -> void
+Workleap.Extensions.Xunit.EmptyUnitFixture
+Workleap.Extensions.Xunit.EmptyUnitFixture.EmptyUnitFixture() -> void
+Workleap.Extensions.Xunit.IConfigureServiceCollection
+Workleap.Extensions.Xunit.IConfigureServiceCollection.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection! services) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+Workleap.Extensions.Xunit.IHasXUnitOutput
+Workleap.Extensions.Xunit.IHasXUnitOutput.SetXunitOutput(Xunit.Abstractions.ITestOutputHelper! outputHelper) -> void
+override Workleap.Extensions.Xunit.BaseIntegrationFixture.ConfigureConfiguration(Microsoft.Extensions.Configuration.IConfigurationBuilder! builder) -> Microsoft.Extensions.Configuration.IConfigurationBuilder!
+override Workleap.Extensions.Xunit.BaseIntegrationFixture.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection! services) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+static Workleap.Extensions.DependencyInjection.DecorationServiceCollectionExtensions.DecorateWithSameLifetime<TService, TDecorator>(this Microsoft.Extensions.DependencyInjection.IServiceCollection! services) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+static Workleap.Extensions.DependencyInjection.DecorationServiceCollectionExtensions.DecorateWithSameLifetime<TService, TDecorator>(this Microsoft.Extensions.DependencyInjection.IServiceCollection! services, System.Func<System.IServiceProvider!, TService, TDecorator!>! decoratorFactory) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+static Workleap.Extensions.DependencyInjection.DecorationServiceCollectionExtensions.DecorateWithSameLifetime<TService, TDecorator>(this Microsoft.Extensions.DependencyInjection.IServiceCollection! services, System.Func<TService, TDecorator!>! decoratorFactory) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+static Workleap.Extensions.DependencyInjection.DecorationServiceCollectionExtensions.DecorateWithSameLifetime<TService>(this Microsoft.Extensions.DependencyInjection.IServiceCollection! services, System.Func<System.IServiceProvider!, TService!, TService!>! decoratorFactory) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+static Workleap.Extensions.DependencyInjection.DecorationServiceCollectionExtensions.DecorateWithSameLifetime<TService>(this Microsoft.Extensions.DependencyInjection.IServiceCollection! services, System.Func<TService!, TService!>! decoratorFactory) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+virtual Workleap.Extensions.Xunit.BaseIntegrationFixture.Environment.get -> Microsoft.Extensions.Hosting.IHostEnvironment!
+virtual Workleap.Extensions.Xunit.BaseUnitFixture.ConfigureConfiguration(Microsoft.Extensions.Configuration.IConfigurationBuilder! builder) -> Microsoft.Extensions.Configuration.IConfigurationBuilder!
+virtual Workleap.Extensions.Xunit.BaseUnitFixture.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection! services) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
+virtual Workleap.Extensions.Xunit.BaseUnitFixture.Dispose(bool disposing) -> void
+virtual Workleap.Extensions.Xunit.BaseUnitTest<TFixture>.Dispose(bool disposing) -> void
+virtual Workleap.Extensions.Xunit.BaseUnitTest<TFixture>.Services.get -> System.IServiceProvider!

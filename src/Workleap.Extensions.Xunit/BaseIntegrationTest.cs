@@ -1,4 +1,4 @@
-﻿namespace GSoft.Extensions.Xunit;
+﻿namespace Workleap.Extensions.Xunit;
 
 public abstract class BaseIntegrationTest : BaseIntegrationTest<EmptyIntegrationFixture>
 {

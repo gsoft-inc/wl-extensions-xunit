@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 
-namespace GSoft.Extensions.Xunit;
+namespace Workleap.Extensions.Xunit;
 
 public abstract class BaseIntegrationFixture : BaseUnitFixture
 {

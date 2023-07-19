@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 
-namespace GSoft.Extensions.Xunit;
+namespace Workleap.Extensions.Xunit;
 
 internal sealed class XunitLoggerProvider : ILoggerProvider, ILogger
 {
