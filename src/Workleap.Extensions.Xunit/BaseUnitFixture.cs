@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace GSoft.Extensions.Xunit;
+namespace Workleap.Extensions.Xunit;
 
 public class BaseUnitFixture : IConfigureServiceCollection, IHasXUnitOutput, IDisposable
 {

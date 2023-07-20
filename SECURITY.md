@@ -1,3 +1,3 @@
 # Security Policy
 
-If you'd like to report a vulnerability, please open a [GitHub issue](https://github.com/gsoft-inc/gsoft-extensions-xunit/issues).
+If you'd like to report a vulnerability, please open a [GitHub issue](https://github.com/gsoft-inc/wl-extensions-xunit/issues).

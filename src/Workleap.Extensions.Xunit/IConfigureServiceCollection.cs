@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace GSoft.Extensions.Xunit;
+namespace Workleap.Extensions.Xunit;
 
 public interface IConfigureServiceCollection
 {

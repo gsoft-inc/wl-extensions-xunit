@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 
 // ReSharper disable once CheckNamespace
-namespace GSoft.Extensions.DependencyInjection;
+namespace Workleap.Extensions.DependencyInjection;
 
 // Inspired from Scrutor: https://github.com/khellang/Scrutor/blob/v4.0.0/src/Scrutor/ServiceCollectionExtensions.Decoration.cs
 // Modifying IServiceCollection registrations can be dangerous and not aligned with the Microsoft vision of dependency injection
