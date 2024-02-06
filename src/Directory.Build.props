@@ -9,6 +9,7 @@
     <LangVersion>10</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
+    <AnalysisLevel>latest-All</AnalysisLevel>
     <Description>An opinionated library that provides base unit test and fixture classes based on the Microsoft.Extensions.* packages used by modern .NET applications.</Description>
   </PropertyGroup>
 
