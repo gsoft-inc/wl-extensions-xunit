@@ -3,38 +3,22 @@
     <Copyright>Copyright © Workleap. $([System.DateTime]::UtcNow.ToString(yyyy))</Copyright>
     <Authors>Workleap</Authors>
     <Owners>Workleap</Owners>
-    <PackageProjectUrl>https://github.com/gsoft-inc/wl-extensions-xunit</PackageProjectUrl>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <LangVersion>10</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
-    <AnalysisLevel>latest-All</AnalysisLevel>
     <Description>An opinionated library that provides base unit test and fixture classes based on the Microsoft.Extensions.* packages used by modern .NET applications.</Description>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-  </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+    <PackageReference Include="Workleap.DotNet.CodingStandards" Version="0.6.0">
       <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
      <PackageReference Include="GitVersion.MsBuild" Version="5.12.0" Condition=" '$(Configuration)' == 'Release' ">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-  <!-- https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink -->
-  <PropertyGroup Condition=" '$(GITHUB_ACTIONS)' == 'true' Or '$(TF_BUILD)' == 'true' ">
-    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
-    <EmbedUntrackedSources>true</EmbedUntrackedSources>
-  </PropertyGroup>
-  <ItemGroup Condition=" '$(GITHUB_ACTIONS)' == 'true' ">
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup Condition="$(MSBuildProjectName.Contains('Tests'))">
