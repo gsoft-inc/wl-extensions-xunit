@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: Workleap Extensions XUnit
+  x-cortex-git:
+    github:
+      alias: gsoft-inc
+      repository: gsoft-inc/wl-extensions-xunit
+  x-cortex-tag: service-wl-extensions-xunit
+  x-cortex-type: library
+  x-cortex-slack:
+    channels:
+    - name: internal-dev-platform
+      notificationsEnabled: true
+  x-cortex-owners:
+  - name: team-internal-developer-platform-backend
+    type: GROUP
+    provider: CORTEX
+  x-cortex-link:
+  - type: cortex
+    url: https://github.com/gsoft-inc/wl-extensions-xunit/blob/main/.cortex/catalog/service-wl-extensions-xunit.yaml
+    name: Edit current Cortex entity in GitHub
+
