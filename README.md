@@ -3,7 +3,7 @@
 An opinionated library that provides base unit test and fixture classes based on the `Microsoft.Extensions.*` packages used by modern .NET applications.
 
 [![nuget](https://img.shields.io/nuget/v/Workleap.Extensions.Xunit.svg?logo=nuget)](https://www.nuget.org/packages/Workleap.Extensions.Xunit/)
-[![build](https://img.shields.io/github/actions/workflow/status/gsoft-inc/wl-extensions-xunit/publish.yml?logo=github)](https://github.com/workleap/wl-extensions-xunit/actions/workflows/publish.yml)
+[![build](https://img.shields.io/github/actions/workflow/status/workleap/wl-extensions-xunit/publish.yml?logo=github)](https://github.com/workleap/wl-extensions-xunit/actions/workflows/publish.yml)
 
 
 ## Getting started
